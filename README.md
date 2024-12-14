@@ -35,15 +35,13 @@ Capture and analyze incoming packets.
 Make changes to its network adapter parameters based on the received packets (e.g., VLAN ID or IP address).
 
 5. Test Without Firewall
-
 Disable the firewall on the Raspberry Pi and test whether parameter modifications sent from the Windows machine are applied:
 Disable Firewall
 Test Modifications
-
 Run the Scapy script on Windows and verify:
 Whether the Raspberry Pi’s network parameters are altered as expected.
 
-6.Re-enable Firewall
+6. Re-enable Firewall
 Re-enable the firewall on the Raspberry Pi and evaluate whether modifications are still possible.
 
 7. Reporting Results
